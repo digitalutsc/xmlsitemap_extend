@@ -1,0 +1,8 @@
+name: XML sitemap Extend
+type: module
+description: Custom logic to alter xmlsitemap links based on field values.
+package: 'XML Sitemap'
+core_version_requirement: ^10.3 || ^11
+dependencies:
+  - xmlsitemap:xmlsitemap
+
