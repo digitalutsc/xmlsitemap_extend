@@ -2,5 +2,6 @@
   "name": "islandora_lite/xmlsitemap_extend",
   "type": "drupal-module",
   "description": "Custom logic to alter xmlsitemap links based on field values ",
-  "keywords": ["Drupal"]
+  "keywords": ["Drupal"],
+  "require": {}
 }
