@@ -5,4 +5,3 @@ package: 'XML Sitemap'
 core_version_requirement: ^10.3 || ^11
 dependencies:
   - xmlsitemap:xmlsitemap
-
