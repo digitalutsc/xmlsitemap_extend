@@ -14,12 +14,6 @@ use Drupal\node\Entity\Node;
  */
 function xmlsitemap_extend_xmlsitemap_link_alter(array &$link) {
 
-  // Define the field and content type you want to target.
-  // phpcs:disable
-  $target_content_type = 'islandora_object';
-  $exclusion_field = 'field_model';
-  // phpcs:enable
-
   if ($link['type'] == 'node') {
     $node = Node::load($link['id']);
 
